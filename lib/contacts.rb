@@ -15,7 +15,7 @@ require 'pry'
   # }
   
 def remove_strawberry(contacts)
-  contacts = Hash.new {
+  contacts = {
     "Jon Snow" => {
        name: "Jon",
        email: "jon_snow@thewall.we", 
